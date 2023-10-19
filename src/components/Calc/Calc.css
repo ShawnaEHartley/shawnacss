@@ -1,0 +1,58 @@
+.wrapper {
+  background: rgb(255, 255, 255);
+  width: 20rem;
+  max-width: 100%;
+  height: 30rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.screen {
+  height: 3rem;
+  margin-bottom: 3rem;
+  text-align: right;
+  font-size: 3.5em;
+  padding-right: 0.5rem;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background: #e9f0f4;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #242424;
+  border: none;
+  font-size: 1.5rem;
+  transition: border 0.2s ease-in-out;
+}
+
+.button:hover {
+  border: 2px dotted #334B48;
+}
+
+.equals {
+  background: #334B48;
+  color: white;
+  width: 7.5rem; /* double the width + gap */
+}
+
+.opt {
+  color: white;
+  background: #94A9C0;
+}

@@ -1,0 +1,16 @@
+.header {
+  border-bottom: black solid .08rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 130%;
+}
+
+.right-border {
+  display: grid;
+  font-size: 80%;
+}
