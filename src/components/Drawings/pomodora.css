@@ -1,0 +1,86 @@
+
+#pomodora {
+  --main-red: rgb(177, 90, 75);
+  --leaves: #A8B848;
+	display: flex;
+	justify-content: center;
+
+}
+
+/* bottom half */
+#tomato {
+	background: var(--main-red);
+	height: 4rem;
+	width: 11.5rem;
+	border-radius:0 0 7rem 6.5rem;
+	position:relative;
+}
+
+#tomato:hover {
+	transform: scale(1.2);
+}
+
+
+/* top right */
+#tomato::before{
+	content:"";
+	width: 6.8rem;
+	height: 65px;
+	background: linear-gradient(318deg, rgba(177,90,75,1) 55%, rgba(141,145,55,1) 92%, rgba(96,135,72,1) 100%);
+	position: absolute;
+	border-radius: 70px 90px 0 0;
+	top: -62px;
+	right: 0;
+}
+
+/* top left */
+#tomato::after {
+	content: "";
+	width: 6rem;
+	height: 62px;
+	background: linear-gradient(20deg, rgba(177,90,75,1) 40%, rgba(141,145,55,1) 98%, rgba(96,135,72,1) 100%);
+	position:absolute;
+	border-radius: 80px 80px 0 0;
+	top: -53px;
+}
+
+/* verticle leaf */
+#tomatoTop {
+	background: #407645;
+	height:16px;
+	width:16px;
+	border-radius:16px 0 16px 0;
+	position:absolute;
+	transform: rotateZ(135deg);
+	top:-20px;
+	z-index:1;
+  left: 4.7rem;
+	top: -2rem;
+}
+
+/* left leaf */
+#tomatoTop::before {
+	content: "";
+	background: #407645;
+	height:16px;
+	width: 22px;
+	border-radius:16px 0 16px 0;
+	position:absolute;
+	z-index:1;
+	transform: rotateZ(80deg);
+	top: 18px;
+}
+
+/* right leaf */
+#tomatoTop::after {
+	content: "";
+	background: #407645;
+	height:16px;
+	width:22px;
+	border-radius:16px 0 16px 0;
+	position:absolute;
+	z-index:1;
+	transform: rotateZ(90deg);
+	top:-2px;
+	right:13px;
+}

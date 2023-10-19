@@ -1,6 +1,5 @@
 /* Add site wide styles */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap');
 
 * {
@@ -10,7 +9,7 @@
 }
 
 body {
-  height: 100dvh;
+  height: 100vh;
   background: #f4f4f4;
   display: flex;
   align-items: center;
@@ -20,8 +19,8 @@ body {
 }
 
 #page-wrapper {
-  height: 90dvh;
-  width: 90dvw;
+  height: 90vh;
+  width: 90vw;
 }
 
 #grid {

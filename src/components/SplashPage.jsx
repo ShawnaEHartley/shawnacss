@@ -6,7 +6,7 @@ import Calc from './Calc/Calc';
 import Clock from './Clock/Clock';
 
 // drawing css files
-// import '../Drawings/pomodora.css';
+import './Drawings/pomodora.css';
 
 function SplashPage() {
 
@@ -97,11 +97,11 @@ function SplashPage() {
                 <div className='square' style={{backgroundColor: mauve}}><Clock secondRatio={secondRatio} minuteRatio={minuteRatio} hourRatio={hourRatio} /></div>
 
 
-                {/* <div className='square' id='pomodora' style={{backgroundColor: light_yellow}}>
+                <div className='square' id='pomodora' style={{backgroundColor: light_yellow}}>
                     <div id="tomato">
                         <div id="tomatoTop"></div>
                     </div>
-                </div> */}
+                </div>
 
                 
             </div>
