@@ -3,7 +3,7 @@ import Header from './Header/Header';
 
 // functional components
 import Calc from './Calc/Calc';
-// import Clock from './Clock/Clock';
+import Clock from './Clock/Clock';
 
 // drawing css files
 // import '../Drawings/pomodora.css';
@@ -94,7 +94,7 @@ function SplashPage() {
                 <div className='tall' style={{backgroundColor: dark_teal}} ><Calc /></div>
 
 
-                {/* <div className='square' style={{backgroundColor: mauve}}><Clock secondRatio={secondRatio} minuteRatio={minuteRatio} hourRatio={hourRatio} /></div> */}
+                <div className='square' style={{backgroundColor: mauve}}><Clock secondRatio={secondRatio} minuteRatio={minuteRatio} hourRatio={hourRatio} /></div>
 
 
                 {/* <div className='square' id='pomodora' style={{backgroundColor: light_yellow}}>
