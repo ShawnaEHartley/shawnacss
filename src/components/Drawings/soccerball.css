@@ -1,0 +1,29 @@
+#soccerball {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  left: 2%;
+  animation: roll 4s linear infinite;
+}
+
+@-moz-keyframes roll {
+  0% { left: 0px; -webkit-transform: rotate(-360deg); }
+  50% { left: 1000px; -webkit-transform: rotate(360deg); }
+  100% { left: 0px; -webkit-transform: rotate(-360deg); }
+}
+
+@-webkit-keyframes roll {
+  0% { left: 0px; -webkit-transform: rotate(-360deg); }
+  50% { left: 1000px; -webkit-transform: rotate(360deg); }
+  100% { left: 0px; -webkit-transform: rotate(-360deg); }
+}
+
+@keyframes roll {
+  0% { left: 0px; -webkit-transform: rotate(-360deg); }
+  50% { left: 1000px; -webkit-transform: rotate(360deg); }
+  100% { left: 0px; -webkit-transform: rotate(-360deg); }
+}

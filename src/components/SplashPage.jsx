@@ -7,6 +7,7 @@ import Clock from './Clock/Clock';
 
 // drawing css files
 import './Drawings/pomodora.css';
+import './Drawings/soccerball.css';
 
 function SplashPage() {
 
@@ -85,17 +86,15 @@ function SplashPage() {
                 <div className='square working'>Tic Tac Toe</div> 
                 
                 <div className='square working'>Heart</div>
-                <div className='square working'>Soccer Ball</div>
                 */}
-
-                {/* <div className='tall' style={{backgroundColor: dark_teal}} ><Calculator /></div> */}
 
 
                 <div className='tall' style={{backgroundColor: dark_teal}} ><Calc /></div>
 
-
+                <div className='wide' style={{backgroundColor: dark_green}}>
+                    <div id='soccerball'></div>
+                </div>
                 <div className='square' style={{backgroundColor: mauve}}><Clock secondRatio={secondRatio} minuteRatio={minuteRatio} hourRatio={hourRatio} /></div>
-
 
                 <div className='square' id='pomodora' style={{backgroundColor: light_yellow}}>
                     <div id="tomato">
@@ -103,7 +102,7 @@ function SplashPage() {
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
     )
