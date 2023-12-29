@@ -94,16 +94,6 @@ function SplashPage() {
                 <div className='wide' style={{backgroundColor: dark_green}}>
                 <div id="soccerball-container">
                     <div id="soccerball"></div>
-                        <div className="pentagon" id="pentagon1"></div>
-                        <div className="pentagon" id="pentagon2"></div>
-                        <div className="pentagon" id="pentagon3"></div>
-                        <div className="pentagon" id="pentagon4"></div>
-                        <div className="pentagon" id="pentagon5"></div>
-                        <div className="hexagon" id="hexagon1"></div>
-                        <div className="hexagon" id="hexagon2"></div>
-                        <div className="hexagon" id="hexagon3"></div>
-                        <div className="hexagon" id="hexagon4"></div>
-                        <div className="hexagon" id="hexagon5"></div>
                     </div> 
                 </div>
                 <div className='square' style={{backgroundColor: mauve}}><Clock secondRatio={secondRatio} minuteRatio={minuteRatio} hourRatio={hourRatio} /></div>

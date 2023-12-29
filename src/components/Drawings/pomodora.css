@@ -4,7 +4,7 @@
   --leaves: #A8B848;
 	display: flex;
 	justify-content: center;
-
+	min-height: 260px;
 }
 
 /* bottom half */

@@ -33,13 +33,6 @@ body {
   padding: 0.5rem;
 } 
 
-/* for mobile devices */
-@media (max-width: 767px) {
-  #grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 #grid > div {
   display: flex;
   align-items: center;
@@ -63,3 +56,26 @@ body {
   grid-column: span 2;
 }
 
+
+/* for mobile devices */
+@media (max-width: 768px) {
+  #grid {
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-auto-rows: minmax(100px, auto); /* Adjust auto row height */
+  }
+
+  #grid .tall {
+    grid-column: 1; /* Ensure occupying only one column */
+    grid-row: span 2; /* Span two rows */
+  }
+
+  #grid .wide {
+    grid-column: 1; /* Ensure occupying only one column */
+    grid-row: span 2; /* Span two rows */
+  }
+
+  #grid > div {
+    grid-column: 1; /* Ensure all other divs occupy only one column */
+    grid-row: span 1; /* Ensure all other divs span only one row */
+  }
+}
